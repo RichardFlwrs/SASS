@@ -1,5 +1,9 @@
 // Widescreens
 @include mediaXL {
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 // Desktops & Laptops
@@ -42,6 +46,12 @@
       width: 150px;
       height: 150px;
     }
+  }
+
+  // About Page
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr;
   }
 }
 
